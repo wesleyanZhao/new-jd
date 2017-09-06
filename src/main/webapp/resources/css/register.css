@@ -1,0 +1,378 @@
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td {
+margin: 0;
+padding: 0;
+}
+fieldset, img {
+border: 0;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+address, caption, cite, code, dfn,
+em, strong, th, var, optgroup {
+font-style: normal;
+font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+font-size: 100%;
+font-weight: normal;
+}
+abbr, acronym {
+border: 0;
+font-variant: normal;
+}
+input, button, textarea,
+select, optgroup, option {
+font-family: inherit;
+font-size: inherit;
+font-style: inherit;
+font-weight: inherit;
+}
+code, kbd, samp, tt {
+font-size: 100%;
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+*font-size: 100%;
+}
+body {
+line-height: 1.5;
+}
+ol, ul {
+list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+caption, th {
+text-align: left;
+}
+sup, sub {
+font-size: 100%;
+vertical-align: baseline;
+}
+/* remember to highlight anchors and inserts somehow! */
+:link, :visited , ins {
+text-decoration: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+.body{
+	overflow: hidden;
+	width: 1211px;
+	margin:auto;
+}
+
+.nav{
+	height: 100px;
+	box-shadow: 0 0 25px rgb(231,231,231);
+}
+.nav .logo{
+	float: left;
+	margin-top: 25px; 
+	width: 160px;
+	height: 50px;
+	background:url(../img/logoself.jpg);
+	/* background-position: 0px 0px; */
+}
+.nav .welcome{
+	line-height: 100px;
+	margin-left: 30px;
+	font-family: Microsoft YaHei;
+	font-size: 24px;
+	color:rgb(51,51,51);
+}
+.nav .login{
+	float: right;
+	margin-top: 55px;
+}
+.nav .login .had{
+	font-size: 16px;
+	color: rgb(153,153,153);
+}
+.nav .login a{
+	text-decoration: none;
+	color: black;
+}
+
+.re{
+	margin-top: 60px;
+	height: 684px;
+}
+.re .body1{
+	height: 684px;
+	overflow: hidden;
+	width: 1211px;
+	margin:auto;
+	border-bottom: 1px solid rgb(230,230,230);
+}
+.re .body1 .left{
+	float: left;
+	width: 694px;
+	border-right: 1px solid rgb(230,230,230);
+}
+.re .body1 .info{
+	margin-left: 190px;
+	width: 402px;
+}
+.re .body1 .left .account{
+	height: 84px;
+}
+.re .body1 .left .account .mark{
+	float: left;
+	letter-spacing: 10px;
+	font-family: Microsoft YaHei;
+	color: rgb(102,102,102);
+	line-height: 52px;
+	text-align: center;
+	width: 124px;
+	height: 52px;
+	border-left: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	border-top: 1px solid rgb(221,221,221);
+}
+.re .body1 .left .account input{
+	border:none;
+	text-indent: 5px;
+	border-top: 1px solid rgb(221,221,221);
+	border-right: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	width: 273px;
+	height: 52px;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	color: rgb(204,204,204);
+}
+/*.re .body1 .left .password{
+	margin-top: 32px;
+}*/
+/* #password span{
+	margin-top:3px;
+	display:inline-block;
+	width:66px;
+	height:22px;
+	border:1px solid green;
+} */
+.re .body1 .left .password{
+	height: 84px;
+}
+.re .body1 .left .password .mark{
+	float: left;
+	letter-spacing: 3px;
+	font-family: Microsoft YaHei;
+	color: rgb(102,102,102);
+	line-height: 52px;
+	text-align: center;
+	width: 124px;
+	height: 52px;
+	border-left: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	border-top: 1px solid rgb(221,221,221);
+}
+.re .body1 .left .password input{
+	border:none;
+	text-indent: 5px;
+	border-top: 1px solid rgb(221,221,221);
+	border-right: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	width: 273px;
+	height: 52px;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	color: rgb(204,204,204);
+}
+/* .re .body1 .left .password span{
+	float:left;
+	width:40px;
+	height:24px;
+	border:1px solid green;
+	background:green;
+} */
+.re .body1 .left .phone{
+	height: 84px;
+}
+.re .body1 .left .phone .mark{
+	float: left;
+	font-family: Microsoft YaHei;
+	color: rgb(102,102,102);
+	line-height: 52px;
+	text-align: center;
+	width: 123px;
+	height: 52px;
+	border-right: 1px solid rgb(221,221,221);
+	border-left: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	border-top: 1px solid rgb(221,221,221);
+}
+.re .body1 .left .phone input{
+	border:none;
+	text-indent: 5px;
+	border-top: 1px solid rgb(221,221,221);
+	border-right: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	width: 273px;
+	height: 52px;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	color: rgb(204,204,204);
+}
+.re .body1 .left .sure{
+	float: right;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.re .body1 .left .sure a{
+	font-size: 13px;
+	text-decoration: none;
+	color: rgb(51,136,255);
+}
+.re .body1 .left .resure{
+	margin-top: 10px;
+	height: 84px;
+}
+.re .body1 .left .resure .mark{
+	float: left;
+	letter-spacing: 10px;
+	font-family: Microsoft YaHei;
+	color: rgb(102,102,102);
+	line-height: 52px;
+	text-align: center;
+	width: 124px;
+	height: 52px;
+	border-left: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	border-top: 1px solid rgb(221,221,221);
+}
+.re .body1 .left .resure input{
+	border:none;
+	text-indent: 5px;
+	border-top: 1px solid rgb(221,221,221);
+	border-right: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	width: 273px;
+	height: 52px;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	color: rgb(204,204,204);
+}
+/*.re .body1 .left .phone_resure{
+	margin-top: 32px;
+}*/
+.re .body1 .left .phone_resure{
+	height: 84px;
+}
+.re .body1 .left .phone_resure .mark{
+	float: left;
+	font-family: Microsoft YaHei;
+	color: rgb(102,102,102);
+	line-height: 52px;
+	text-align: center;
+	width: 124px;
+	height: 52px;
+	border-left: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	border-top: 1px solid rgb(221,221,221);
+}
+.re .body1 .left .phone_resure input{
+	border:none;
+	text-indent: 5px;
+	border-top: 1px solid rgb(221,221,221);
+	border-right: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+	width: 273px;
+	height: 52px;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	color: rgb(204,204,204);
+}
+/*.re .body1 .left .choose{
+	margin-top: 32px;
+}*/
+.re .body1 .left .choose span{
+	font-size: 12px;
+}
+.re .body1 .left .choose a{
+	color: rgb(51,136,255);
+	text-decoration: none;
+}
+.re .body1 .left .now_register{
+	margin-top: 32px;
+	background:red;
+}
+.re .body1 .left .now_register .btn{
+	color: white;
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	background: none;
+	width: 402px;
+	height: 56px;
+	border:none;
+}
+.re .body1 .left .now_register .btn:hover{
+	cursor: pointer;
+}
+.re .body1 .right{
+	float: left;
+}
+.re .body1 .right .photo{
+	margin-left: 120px;
+	width: 162px;
+}
+.re .body1 .right .photo .top{
+	height: 62px;
+	border-bottom: 1px solid rgb(221,221,221);
+}
+.re .body1 .right .photo .top .pho{
+	float: left;
+	width: 32px;
+	height: 31px;
+	background:url(../img/icon.png);
+	background-position: 0px -48px;
+}
+.re .body1 .right .photo .top span{
+	line-height: 31px;
+	margin-left: 18px;
+	color: rgb(102,102,102);
+	font-size: 14px;
+}
+.re .body1 .right .photo .top:hover{
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+}
+.re .body1 .right .photo .top2{
+	margin-top: 32px;
+}
+.re .body1 .right .photo .top2 .pho{
+	float: left;
+	margin-top: 10px;
+	width: 32px;
+	height: 31px;
+	background:url(../img/icon.png);
+	background-position: -48px -49px;
+}
+.re .body1 .right .photo .top2 .text{
+	margin-left: 46px;
+	color: rgb(102,102,102);
+	font-size: 16px;
+}
+.re .body1 .right .photo .top2:hover{
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+}

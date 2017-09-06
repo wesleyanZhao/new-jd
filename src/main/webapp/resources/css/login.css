@@ -1,0 +1,254 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.width{width: 990px;margin:0 auto;overflow: hidden;}
+
+.top{
+	margin-top:5px;
+	height: 70px;
+}
+.top a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.logo{
+	float: left;
+}
+.logo .two{
+	margin-left: 15px;
+}
+.research{
+	position: relative;
+	float: right;
+	font-size: 12px;
+	color:grey;
+	letter-spacing: 1px;
+	text-decoration: none;
+	top:43px;
+}
+.research b{
+	display: inline-block;
+	width: 18px;
+	height: 14px;
+	background-image: url(../img/q-icon.png) ;
+}
+
+.content{
+	height: 475px;
+	background-color:#F895CC; 
+}
+.background{
+	width: 990px;
+	height: 475px;
+	background-image: url(../img/background.jpg);
+}
+
+.box{
+	float: right;
+	margin-top: 57px;
+	width: 347px;
+	height: 365px;
+	background-color: white;
+}
+.choose{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 55px;
+	height: 55px;
+	border-bottom: 1px solid #F4F4F4;
+}
+.choose a{
+	text-decoration: none;
+	color:grey;
+}
+.text1{
+	text-align: center;
+	width: 173px;
+	float: left;
+}
+.text1:hover{
+	color: red;
+	font-weight: bolder;
+}
+.text2{
+	text-align: center;
+	width: 173px;
+	float: left;
+}
+.text2:hover{
+	color:red;
+	font-weight: bolder;
+}
+.w{
+	width: 307px;
+	margin: 0 auto;
+}
+.user{
+	height: 257px;
+	border-bottom: 1px solid #F4F4F4;
+}
+.user .account{
+	width: 306px;
+	height: 40px;
+	margin-top: 33px;
+}
+.user .account .account_pho{
+	float: left;
+	width: 38px;
+	height: 38px;
+	background:url(../img/pwd-icons-new.png) no-repeat;
+	background-position: 0px 0px;
+	border-left: 1px solid #BDBDBD;
+	border-top: 1px solid #BDBDBD;
+	border-bottom: 1px solid #BDBDBD;
+}
+.user .account input{
+	outline: 0;
+	font-size: 16px;
+	width: 263px;
+	height: 34px;
+	text-indent: 10px;
+}
+.user .pwd{
+	width: 306px;
+	height: 40px;
+	margin-top: 33px;
+}
+.user .pwd .pwd_pho{
+	float: left;
+	width: 38px;
+	height: 38px;
+	background:url(../img/pwd-icons-new.png) no-repeat;
+	background-position: -48px 0px;
+	border-left: 1px solid #BDBDBD;
+	border-top: 1px solid #BDBDBD;
+	border-bottom: 1px solid #BDBDBD;
+}
+.user .pwd input{
+	outline: 0;
+	font-size: 16px;
+	width: 263px;
+	height: 34px;
+	text-indent: 10px;
+}
+.user .f{
+	float: right;
+	margin-top: 33px;
+	font-size: 13px;
+	color: #767676;
+}
+.user .f:hover{
+	text-decoration: underline;
+	color: red;
+}
+/* .user .btn{
+	text-align: center;
+	background-color: #E4393C;
+	width: 306px;
+	height: 40px;
+	margin-top: 66px;
+}
+.user .l{
+	text-decoration: none;
+}
+.user .btn span{
+	letter-spacing: 15px;
+	line-height: 40px;
+	font-size: 23px;
+	color: white;
+} */
+.user .btn input{
+	background-color: #E4393C;
+	width: 306px;
+	height: 40px;
+	margin-top: 33px;
+	border:none;
+}
+.user .btn input:hover{
+	cursor: pointer;
+}
+
+.other_way{
+	height: 51px;
+	background-color: #FCFCFC;
+}
+.other_way a{
+	line-height: 51px;
+	text-decoration: none;
+	color: rgb(102,102,102);
+}
+.other_way .qq{
+	font-size: 14px;
+	width: 57px;
+	float: left;
+}
+.other_way .qq .qq_pho{
+	margin-top: 17px;
+	float: left;
+	width: 19px;
+	height: 19px;
+	background:url(../img/QQ-weixin.png) no-repeat;
+	background-position: 0px 0px;
+}
+.other_way .qq span{
+	margin-left: 5px;
+}
+.other_way .chat{
+	font-size: 13px;
+	width: 57px;
+	float: left;
+}
+.other_way a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.other_way .chat .chat_pho{
+	margin-top: 17px;
+	float: left;
+	width: 19px;
+	height: 19px;
+	background:url(../img/QQ-weixin.png) no-repeat;
+	background-position: -19px 0px;
+}
+.other_way .chat span{
+	margin-left: 5px;
+}
+.other_way .now{
+	float: right;
+}
+.other_way .now .now_pho{
+	margin-top: 17px;
+	float: left;
+	width: 19px;
+	height: 19px;
+	background:url(../img/pwd-icons-new.png) no-repeat;
+	background-position: -103px -74px;
+}
+.other_way .now span{
+	color: red;
+	font-size: 15px;
+}
+
+
+
+ul li{
+	font-size: 13px;
+	margin-left: 23px;
+	float: left;
+	list-style: none;
+}
+ul li a{
+	text-decoration: none;
+	color: #666;
+}
+ul li a:hover{
+	color:red;
+	text-decoration: underline;
+}
+.foot p{
+	color: #666;
+	font-size: 13px;
+	text-align: center;
+}

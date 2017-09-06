@@ -1,0 +1,329 @@
+/**
+ * admin.css
+ */
+
+#body{
+  width:1900px;
+  height: 2200px;
+}
+
+
+
+.body{
+  width: 1191px;
+  height: 200px;
+  margin: 0 auto;
+}
+.nav{
+  line-height: 33px;
+  height: 33px;
+  background-color: #E3E4E5;
+  border-bottom: 1px solid rgb(221,221,221);
+}
+.nav .location{
+  color: #999999;
+  font-size: 12px;
+  line-height: 33px;
+  margin-left: 202px;
+}
+.nav ul li{
+  font-family: Microsoft YaHei;
+  font-size: 12px;
+  list-style: none;
+  float: left;
+  margin-left: 13px;
+}
+/*.nav ul li span{
+  color: red;
+}*/
+.nav ul{
+  margin: 0;
+  float: right;
+}
+.nav b{
+  display: inline-block;
+  height: 10px;
+  border-left: 1px solid #CCC;
+}
+.nav a{
+  text-decoration: none;
+}
+.nav font:hover{
+  color:#C81623;
+}
+.nav span:hover{
+  color:#C81623;
+}
+.nav font{
+  color: #999999;
+}
+
+/*.img{
+  position: absolute;
+  z-index: 1;
+  margin-left: 300px;
+  margin-top: -50px;
+
+}*/
+.navigation{
+  width: 1900px;
+  height: 100px;
+  background-color: #e45050;
+}
+.navName{
+  color: white;
+  margin-left: 400px;
+  font-size: 30px;
+  line-height: 100px;
+}
+.options{
+  margin-left: 600px;
+  margin-top: -90px;
+  line-height: 100px;
+}
+.options li{
+  list-style: none;
+  margin-left: 20px;
+  float: left;
+}
+.options a{
+  text-decoration: none;
+  color: white;
+}
+.seek{
+  line-height: 100px;
+}
+.seekBorder{
+  height: 30px;
+  width: 200px;
+  border: 0px ;
+  margin-left: 30px;
+}
+.seekButton{
+  height: 31px;
+  width: 60px;
+  margin-left: -65px;
+  border:0px;
+  background-color: #f9f9f9;
+}
+.myCar{
+  margin-left: 1100px;
+  width: 200px;
+  height: 40px;
+  margin-top: -70px;
+  border: 0px;
+  background-color: #f9f9f9;
+}
+
+#bigCentre{
+  width: 1900px;
+  height:1200px;
+  background-color: #f5f5f5;
+  margin-top: -20px;
+  overflow: hidden;
+}
+#left{
+  width: 300px;
+  height: 700px;
+  margin-left: 300px;
+
+}
+.messageOptions{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.messageOptions a:hover{
+  color: red;
+}
+.messageOptions li,.messageOptions a{
+  list-style: none;
+  text-decoration: none;
+}
+.messageOptions li{
+   margin-top: 10px;
+}
+.messageOptions a{
+  color:#777777;
+}
+#centre{
+  width: 800px;
+  height:600px;
+  background-color: white;
+  margin-top: -700px;
+  margin-left: 600px;
+  overflow: hidden;
+}
+.baseMessage{
+  margin-top: 10px;
+  margin-left: 90px;
+  font-size: 20px;
+
+}
+.rightBorder{
+  width: 350px;
+  height: 150px;
+  background-color:#f5f5f5;
+  border: 1px solid #cccccc;
+  margin-left: 400px;
+  margin-top: -260px;
+}
+.useImg{
+  margin-top: 30px;
+  margin-left:10px;
+}
+.users{
+  margin-left: 150px;
+  margin-top: -80px;
+}
+.xl{
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 735px;
+  display: none;
+}
+.xl {
+  font-size: 16px;
+  color: #666666;
+}
+.xldiv{
+  margin-top: 50px;
+}
+.xl p{
+  width: 130px;
+}
+.xl p:hover{
+  background-color: #f5f5f5;
+}
+.xl a:hover{
+  color: red;
+}
+.like{
+  width: 1000px;
+  height: 400px;
+  margin-left: 600px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 20% 0 0 0;
+}
+.likeP{
+  font-size: 20px;
+  color: #666666;
+
+}
+.likeImg{
+  width: 196px;
+  height: 300px;
+  float: left;
+  margin-top: 50px;
+}
+.likeImg img{
+  width: 150px;
+  height: 150px;
+}
+.likeImg p{
+  color: #666666;
+}
+.likeImg p:hover{
+  color: red;
+}
+.likeP:hover{
+  color: red;
+}
+.lMoney{
+  margin-top: 20px;
+}
+.buy{
+  width: 1000px;
+  height: 400px;
+  margin-left: 600px;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 0 20% 0 0;
+}
+.buyDiv{
+  width: 330px;
+  height: 320px;
+  border: 1px solid #f1f1f1;
+  margin-top: 20px;
+  float: left;
+}
+.buyDiv p{
+  color: #666666;
+  font-size:20px;
+  margin-top: 20px;
+}
+.buyBig{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+}
+.buySmall{
+  width: 90px;
+  height: 90px;
+  border: 1px solid #f1f1f1;
+  margin-left: 10px;
+
+}
+.buySmall,.buyBig{
+  float: left;
+}
+.buyBig img{
+  width: 180px;
+  height: 180px;
+}
+.buy p:hover{
+  color: red;
+}
+
+
+
+
+
+
+.lianjie{
+  width:1400px;
+  height: 50px;
+  margin-left: 240px;
+  margin-top: 60px;
+  border-top: 1px solid rgb(221,221,221);
+  border-bottom: 1px solid rgb(221,221,221);
+}
+.lianjie a{
+  text-decoration: none;
+  color: gray;
+  margin-left: 10px;
+  line-height: 50px;
+}
+.lianjie span{
+  margin-left:10px;
+}
+.lianjie a:hover{
+  color: red;
+}
+.falv a{
+  text-decoration: none;
+  margin-left: 5px;
+  color: gray;
+}
+.falv a:hover{
+  color: red;
+}
+.falv{
+  text-align: center;
+  margin-top: 30px;
+}
+.yingxiao span ,.yingxiao a{
+  text-decoration: none;
+  color: gray;
+  margin-left: 10px;
+
+}
+.yingxiao{
+  text-align: center;
+  margin-top: 10px;
+}
+.yingxiao a:hover{
+  color: red;
+}

@@ -1,0 +1,391 @@
+body, div, dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, button,
+textarea, p, blockquote, th, td {
+margin: 0;
+padding: 0;
+}
+
+
+.body{
+	width: 1191px;
+	height: 200px;
+	margin: 0 auto;
+}
+.nav{
+	line-height: 33px;
+	height: 33px;
+	background-color: #E3E4E5;
+	border-bottom: 1px solid rgb(221,221,221);
+}
+.nav .location{
+	color: #999999;
+	font-size: 12px;
+	line-height: 33px;
+	margin-left: 202px;
+}
+.nav ul li{
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	list-style: none;
+	float: left;
+	margin-left: 13px;
+}
+.nav ul{
+	margin: 0;
+	float: right;
+}
+.nav b{
+	display: inline-block;
+	height: 10px;
+	border-left: 1px solid #CCC;
+}
+.nav a{
+	text-decoration: none;
+}
+.nav font:hover{
+	color:#C81623;
+}
+.nav span:hover{
+	color:#C81623;
+}
+.nav font{
+	color: #999999;
+}
+
+
+fieldset, img {
+border: 0;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+address, caption, cite, code, dfn,
+em, strong, th, var, optgroup {
+font-style: normal;
+font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+font-size: 100%;
+font-weight: normal;
+}
+abbr, acronym {
+border: 0;
+font-variant: normal;
+}
+input, button, textarea,
+select, optgroup, option {
+font-family: inherit;
+font-size: inherit;
+font-style: inherit;
+font-weight: inherit;
+}
+code, kbd, samp, tt {
+font-size: 100%;
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea, select {
+*font-size: 100%;
+}
+body {
+line-height: 1.5;
+}
+ol, ul {
+list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+caption, th {
+text-align: left;
+}
+sup, sub {
+font-size: 100%;
+vertical-align: baseline;
+}
+/* remember to highlight anchors and inserts somehow! */
+:link, :visited , ins {
+text-decoration: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+.w{
+	width: 1149px;
+	margin:0 auto;
+}
+
+.top{
+	margin-top: 20px;
+	height: 100px;
+}
+.top .top{
+	overflow: hidden;
+}
+.top .logo{
+	width: 267px;
+	height: 68px;
+	float: left;
+	line-height: 100px;
+}
+.top .search{
+	margin-left: 66px;
+	float: left;
+}
+.top .search .input input{
+	color: rgb(102,102,102);
+	font-size: 12px;
+	text-indent: 7px;
+	float: left;
+	border: 2px solid rgb(182,29,29);
+	width: 456px;
+	height: 34px
+}
+.top .search .input .input_search{
+	line-height: 34px;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	color: white;
+	background-color: rgb(182,29,29);
+	font-size: 16px;
+	border: 2px solid rgb(182,29,29);
+	width: 77px;
+	height: 34px;
+}
+.top .search .input .input_search:hover{
+	cursor: pointer;
+}
+.top .search .more span{
+	font-size: 12px;
+	color: rgb(102,102,102);
+}
+.top .car{
+	margin-left: 100px;
+	float: left;
+	text-align: center;
+	line-height: 36px;
+	font-size: 12px;
+	color: rgb(102,102,102);
+	border: 1px solid rgb(223,223,223);
+	width: 141px;
+	height: 36px;
+	background-color: rgb(249,249,249);
+}
+
+hr{
+	border: 0px;
+	height: 2px;
+	background-color: rgb(182,29,29);
+}
+
+.type{
+	margin-top: 30px;
+	height: 145px;
+}
+.header{
+	height: 34px;
+	background-color: rgb(241,241,241);
+	border-top: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid rgb(221,221,221);
+}
+.type .header .one{
+	line-height: 34px;
+	color: rgb(228,57,60);
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 8px;
+}
+.type .header .two{
+	line-height: 34px;
+	color: rgb(102,102,102);
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 8px;
+}
+.type .header .three{
+	line-height: 34px;
+	color: rgb(145,102,123);
+	font-size: 13px;
+	margin-left: 14px;
+}
+.type .size{
+	height: 34px;
+	border-bottom: 1px dashed rgb(238,238,238);
+}
+.type .size .more button:hover{
+	border-color:red;
+	color:red;
+	cursor:pointer;
+}
+.type .ph{
+	height: 34px;
+	border-bottom: 1px dashed rgb(238,238,238);
+}
+.type .brand{
+	height: 34px;
+	border-bottom: 1px solid rgb(238,238,238);
+}
+.type .wi{
+	float: left;
+	width: 60px;
+	font-size: 12px;
+	color: rgb(153,153,153);
+	line-height: 34px;
+	margin-left:8px;
+}
+.type .more{
+	color: rgb(102,102,102);
+	font-size: 12px;
+	line-height: 34px;
+}
+
+.allgoods{
+	margin-top: 33px;
+	overflow: hidden;
+}
+.allgoods .header span{
+	margin-left: 8px;
+	margin-top: 4px;
+	text-align: center;
+	line-height: 25px;
+	display: inline-block;
+	background-color: rgb(228,57,60);
+	width: 69px;
+	height: 25px;
+	color: white;
+	font-size: 12px;
+}
+
+.pho{
+	/*height: 351px;*/
+	margin-top: 33px;
+	overflow: hidden;
+}
+.pho form{
+	display:inline-block;
+}
+.pho form input{
+	display: inline-block;
+	color: red;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+	width: 94px;
+	height: 25px;
+	border: 1px solid rgb(221,221,221);
+	background-color:white;
+}
+.pho form input:hover{
+	cursor:pointer;
+	background-color:red;
+	color:white;
+}
+.pho .ever{
+	overflow:hidden;
+	width: 227px;
+	height: 343px;
+	float: left;
+	margin-left: 48px;
+	margin-top: 2px;
+}
+.pho .ever:hover{
+	box-shadow: 0 0 9px rgb(191,191,191);
+}
+.pho .ever .text{
+	margin-top: 5px;
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+.pho .ever .desc{
+	margin-top: 5px;
+	color: rgb(125,102,149);
+	font-size: 12px;
+}
+.pho .ever .operation{
+	margin-top: 5px;
+	text-align: center;
+}
+
+.pagenum{
+	text-align: center;
+	margin-top: 23px;
+}
+.pagenum .choose{
+	overflow: hidden;
+}
+.pagenum .choose .pop{
+	display:inline-block;
+	text-decoration:none;
+	width:83px;
+	height:38px;
+	text-align:center;
+	line-height:38px;
+	font-size:15px;
+	color:rgb(51,51,51);
+	border-color:rgb(221,221,221);
+	border:1px solid rgb(221,221,221);
+	background-color:rgb(244,244,244);
+}
+.pagenum .choose span a{
+	display:inline-block;
+	text-decoration:none;
+	width:38px;
+	height:38px;
+	text-align:center;
+	line-height:38px;
+	font-size:15px;
+	color:rgb(51,51,51);
+	border-color:rgb(221,221,221);
+	border:1px solid rgb(221,221,221);
+	background-color:rgb(244,244,244);
+}
+.pagenum .choose span .now{
+	display:inline-block;
+	text-decoration:none;
+	width:38px;
+	height:38px;
+	text-align:center;
+	line-height:38px;
+	font-size:15px;
+	color:rgb(51,51,51);
+	border-color:rgb(221,221,221);
+	border:1px solid rgb(221,221,221);
+	background-color:rgb(228,57,60);
+}
+
+.more_fast_good{
+	margin-top: 33px;
+	background-color: rgb(245,245,245);
+	height: 94px;
+}
+.more_fast_good .other_one{
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.more_fast_good .other_two{
+	float: left;
+	margin-top: 20px;
+	margin-left: 70px;
+}
+.about-us{
+	margin-top: 0px;
+	background-color: rgb(245,245,245);
+	height: 30px;
+}
+.about-us .about{
+	margin-top: 10px;
+	margin-left: 440px;
+}
